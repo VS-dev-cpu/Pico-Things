@@ -1,0 +1,5 @@
+add_executable(The_1D_Game main.c)
+
+target_link_libraries(The_1D_Game pico_stdlib hardware_clocks pico_multicore pico_lcd)
+
+pico_add_extra_outputs(The_1D_Game)

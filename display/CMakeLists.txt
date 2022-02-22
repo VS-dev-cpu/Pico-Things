@@ -1,0 +1,6 @@
+if (NOT PICO_NO_HARDWARE)
+    add_subdirectory(test)
+    add_subdirectory(Pong)
+    add_subdirectory(The_1D_Game)
+    add_subdirectory(Keyboard)
+endif ()
